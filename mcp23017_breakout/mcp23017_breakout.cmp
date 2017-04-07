@@ -1,0 +1,83 @@
+Cmp-Mod V01 Created by PcbNew   date = Fri 07 Apr 2017 07:53:15 PM CEST
+
+BeginCmp
+TimeStamp = 58E55026
+Path = /58E54ECF
+Reference = I2C1;
+ValeurCmp = CONN_01X04;
+IdModule  = myComponents:solderPads_4_Grove_I2C;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E67486
+Path = /58E6A84A
+Reference = R1;
+ValeurCmp = 2K2;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E67BBF
+Path = /58E2887C
+Reference = Col1;
+ValeurCmp = CONN_01X06;
+IdModule  = myComponents:solderPads_6;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E67BE6
+Path = /58E288CF
+Reference = Row1;
+ValeurCmp = CONN_01X03;
+IdModule  = myComponents:solderPads_3;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E67BC0
+Path = /58E38DE5
+Reference = Expansion1;
+ValeurCmp = CONN_01X12;
+IdModule  = myComponents:microMatch-12_90_THT;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E7B218
+Path = /58E7C0BD
+Reference = C1;
+ValeurCmp = 10µF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E7D035
+Path = /58E81F3D
+Reference = U1;
+ValeurCmp = address_sel;
+IdModule  = myComponents:addr_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E7D03C
+Path = /58E82010
+Reference = U2;
+ValeurCmp = address_sel;
+IdModule  = myComponents:addr_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E7D043
+Path = /58E82047
+Reference = U3;
+ValeurCmp = address_sel;
+IdModule  = myComponents:addr_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E7D073
+Path = /58E7C6EE
+Reference = U4;
+ValeurCmp = MCP23017;
+IdModule  = Housings_SOIC:SOIC-28W_7.5x17.9mm_Pitch1.27mm;
+EndCmp
+
+EndListe

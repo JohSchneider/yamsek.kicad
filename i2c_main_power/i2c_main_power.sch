@@ -1,0 +1,293 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myComponents
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SJ-43514-SMT TRRS1
+U 1 1 58E2915A
+P 1900 1500
+F 0 "TRRS1" H 1600 1250 60  0000 C CNN
+F 1 "SJ-43514-SMT" H 1650 1800 60  0000 C CNN
+F 2 "myComponents:audio_smd_SJ-43514-SMT" H 1900 1500 60  0001 C CNN
+F 3 "" H 1900 1500 60  0001 C CNN
+F 4 "http://www.digikey.de/scripts/DkSearch/dksus.dll?Detail&itemSeq=224313144&uq=636268204108536022" H 1900 1500 60  0001 C CNN "digikey"
+	1    1900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR1
+U 1 1 58E295B4
+P 1650 2850
+F 0 "#PWR1" H 1650 2700 50  0001 C CNN
+F 1 "+5V" H 1650 2990 50  0000 C CNN
+F 2 "" H 1650 2850 50  0000 C CNN
+F 3 "" H 1650 2850 50  0000 C CNN
+	1    1650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 58E295F8
+P 2700 2050
+F 0 "#PWR5" H 2700 1800 50  0001 C CNN
+F 1 "GND" H 2700 1900 50  0000 C CNN
+F 2 "" H 2700 2050 50  0000 C CNN
+F 3 "" H 2700 2050 50  0000 C CNN
+	1    2700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR4
+U 1 1 58E2C1CA
+P 2700 1150
+F 0 "#PWR4" H 2700 1000 50  0001 C CNN
+F 1 "+5V" H 2700 1290 50  0000 C CNN
+F 2 "" H 2700 1150 50  0000 C CNN
+F 3 "" H 2700 1150 50  0000 C CNN
+	1    2700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 I2C1
+U 1 1 58E54ECF
+P 6500 1450
+F 0 "I2C1" H 6500 1700 50  0000 C CNN
+F 1 "CONN_01X04" V 6600 1450 50  0000 C CNN
+F 2 "myComponents:solderPads_4_Grove_I2C" V 6650 1450 50  0000 C CNN
+F 3 "" H 6500 1450 50  0000 C CNN
+	1    6500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR8
+U 1 1 58E561FB
+P 6200 1200
+F 0 "#PWR8" H 6200 1050 50  0001 C CNN
+F 1 "+5V" H 6200 1340 50  0000 C CNN
+F 2 "" H 6200 1200 50  0000 C CNN
+F 3 "" H 6200 1200 50  0000 C CNN
+	1    6200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR9
+U 1 1 58E5624E
+P 6200 1700
+F 0 "#PWR9" H 6200 1450 50  0001 C CNN
+F 1 "GND" H 6200 1550 50  0000 C CNN
+F 2 "" H 6200 1700 50  0000 C CNN
+F 3 "" H 6200 1700 50  0000 C CNN
+	1    6200 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1700 6200 1600
+Wire Wire Line
+	6200 1600 6300 1600
+Wire Wire Line
+	6300 1500 6200 1500
+Wire Wire Line
+	6200 1500 6200 1200
+$Sheet
+S 3150 1050 1800 1250
+U 58E667B4
+F0 "I2C_bridge" 60
+F1 "../I2C_bridge.sch" 60
+F2 "Gnd_inside" O R 4950 2050 60 
+F3 "V_inside" O R 4950 1150 60 
+F4 "SDA_inside" O R 4950 1450 60 
+F5 "SCL_inside" O R 4950 1750 60 
+F6 "V_connector" I L 3150 1150 60 
+F7 "SDA_connector" I L 3150 1450 60 
+F8 "SCL_connector" I L 3150 1750 60 
+F9 "Gnd_connector" I L 3150 2050 60 
+$EndSheet
+Wire Wire Line
+	4950 1450 6300 1450
+Wire Wire Line
+	4950 1750 5900 1750
+Wire Wire Line
+	3150 1150 2700 1150
+Wire Wire Line
+	2700 2050 3150 2050
+Wire Wire Line
+	2250 1550 2600 1550
+Wire Wire Line
+	2600 1550 2600 1750
+Wire Wire Line
+	2600 1750 3150 1750
+Wire Wire Line
+	2250 1400 2600 1400
+Wire Wire Line
+	2600 1400 2600 1450
+Wire Wire Line
+	2600 1450 3150 1450
+$Comp
+L GND #PWR3
+U 1 1 58E7457F
+P 2500 1150
+F 0 "#PWR3" H 2500 900 50  0001 C CNN
+F 1 "GND" H 2500 1000 50  0000 C CNN
+F 2 "" H 2500 1150 50  0000 C CNN
+F 3 "" H 2500 1150 50  0000 C CNN
+	1    2500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR6
+U 1 1 58E752D7
+P 5100 1150
+F 0 "#PWR6" H 5100 1000 50  0001 C CNN
+F 1 "+5V" H 5100 1290 50  0000 C CNN
+F 2 "" H 5100 1150 50  0000 C CNN
+F 3 "" H 5100 1150 50  0000 C CNN
+	1    5100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR7
+U 1 1 58E7532A
+P 5100 2050
+F 0 "#PWR7" H 5100 1800 50  0001 C CNN
+F 1 "GND" H 5100 1900 50  0000 C CNN
+F 2 "" H 5100 2050 50  0000 C CNN
+F 3 "" H 5100 2050 50  0000 C CNN
+	1    5100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2050 4950 2050
+Wire Wire Line
+	4950 1150 5100 1150
+Wire Wire Line
+	6300 1450 6300 1400
+Wire Wire Line
+	5900 1750 5900 1300
+Wire Wire Line
+	5900 1300 6300 1300
+$Comp
+L AP2553W6 U2
+U 1 1 58E7D76E
+P 2050 3350
+F 0 "U2" H 1900 3100 60  0000 C CNN
+F 1 "AP2553W6" H 2050 3850 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 2050 3350 60  0001 C CNN
+F 3 "" H 2050 3350 60  0001 C CNN
+	1    2050 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3000 1650 2850
+Wire Wire Line
+	2450 3000 2450 1650
+Wire Wire Line
+	2450 1650 2250 1650
+Wire Wire Line
+	2250 1300 2250 1150
+Wire Wire Line
+	2250 1150 2500 1150
+$Comp
+L GND #PWR2
+U 1 1 58E80874
+P 2150 3800
+F 0 "#PWR2" H 2150 3550 50  0001 C CNN
+F 1 "GND" H 2150 3650 50  0000 C CNN
+F 2 "" H 2150 3800 50  0000 C CNN
+F 3 "" H 2150 3800 50  0000 C CNN
+	1    2150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3800 2150 3700
+$Comp
+L R R6
+U 1 1 58E808EC
+P 1300 3150
+F 0 "R6" V 1380 3150 50  0000 C CNN
+F 1 "10K" V 1300 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1230 3150 50  0000 C CNN
+F 3 "" H 1300 3150 50  0000 C CNN
+	1    1300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 58E80ADC
+P 1050 3150
+F 0 "R5" V 1130 3150 50  0000 C CNN
+F 1 "10K" V 1050 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 980 3150 50  0000 C CNN
+F 3 "" H 1050 3150 50  0000 C CNN
+	1    1050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 58E80B51
+P 2700 3500
+F 0 "R7" V 2780 3500 50  0000 C CNN
+F 1 "93K1" V 2700 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2630 3500 50  0000 C CNN
+F 3 "" H 2700 3500 50  0000 C CNN
+	1    2700 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3000 1650 3000
+Connection ~ 1300 3000
+Wire Wire Line
+	1300 3300 1650 3300
+Wire Wire Line
+	1650 3400 1050 3400
+Wire Wire Line
+	1050 3400 1050 3300
+Wire Wire Line
+	2450 3150 2700 3150
+Wire Wire Line
+	2700 3150 2700 3350
+Wire Wire Line
+	2700 3650 2700 3700
+Wire Wire Line
+	2700 3700 2150 3700
+$EndSCHEMATC

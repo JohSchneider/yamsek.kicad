@@ -1,0 +1,457 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myComponents
+LIBS:attiny861a_breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATTINY861A-S IC1
+U 1 1 58E28365
+P 4500 3700
+F 0 "IC1" H 3600 4650 50  0000 C CNN
+F 1 "ATTINY861A-S" H 5250 2750 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm" H 4500 3700 50  0000 C CIN
+F 3 "" H 4500 3700 50  0000 C CNN
+	1    4500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X03 ICSP1
+U 1 1 58E2874F
+P 6200 5250
+F 0 "ICSP1" H 6200 5450 50  0000 C CNN
+F 1 "CONN_02X03" H 6100 5050 50  0000 C CNN
+F 2 "myComponents:ICSP_BIG_pads" H 6250 4950 50  0000 C CNN
+F 3 "" H 6200 4050 50  0000 C CNN
+	1    6200 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 Col1
+U 1 1 58E2887C
+P 7950 3350
+F 0 "Col1" H 7950 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 8050 3350 50  0000 C CNN
+F 2 "myComponents:solderPads_6" V 8200 3350 50  0000 C CNN
+F 3 "" H 7950 3350 50  0000 C CNN
+	1    7950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 Row1
+U 1 1 58E288CF
+P 7900 2500
+F 0 "Row1" H 7900 2700 50  0000 C CNN
+F 1 "CONN_01X03" V 8000 2500 50  0000 C CNN
+F 2 "myComponents:solderPads_3" V 8100 2550 50  0000 C CNN
+F 3 "" H 7900 2500 50  0000 C CNN
+	1    7900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR1
+U 1 1 58E29592
+P 3400 2800
+F 0 "#PWR1" H 3400 2650 50  0001 C CNN
+F 1 "+5V" H 3400 2940 50  0000 C CNN
+F 2 "" H 3400 2800 50  0000 C CNN
+F 3 "" H 3400 2800 50  0000 C CNN
+	1    3400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 58E295D6
+P 3400 4700
+F 0 "#PWR2" H 3400 4450 50  0001 C CNN
+F 1 "GND" H 3400 4550 50  0000 C CNN
+F 2 "" H 3400 4700 50  0000 C CNN
+F 3 "" H 3400 4700 50  0000 C CNN
+	1    3400 4700
+	1    0    0    -1  
+$EndComp
+Text Label 5600 3100 0    60   ~ 0
+SCL
+Text Label 5600 2900 0    60   ~ 0
+SDA
+$Comp
+L GND #PWR6
+U 1 1 58E323E4
+P 6450 5350
+F 0 "#PWR6" H 6450 5100 50  0001 C CNN
+F 1 "GND" H 6450 5200 50  0000 C CNN
+F 2 "" H 6450 5350 50  0000 C CNN
+F 3 "" H 6450 5350 50  0000 C CNN
+	1    6450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR7
+U 1 1 58E326D5
+P 6550 5150
+F 0 "#PWR7" H 6550 5000 50  0001 C CNN
+F 1 "+5V" H 6550 5290 50  0000 C CNN
+F 2 "" H 6550 5150 50  0000 C CNN
+F 3 "" H 6550 5150 50  0000 C CNN
+	1    6550 5150
+	1    0    0    -1  
+$EndComp
+Text Label 5800 5150 0    60   ~ 0
+MiSo
+Text Label 5750 5250 0    60   ~ 0
+Sck
+Text Label 5700 5350 0    60   ~ 0
+Rst
+Text Label 6450 5250 0    60   ~ 0
+MoSi
+$Comp
+L CONN_01X12 Expansion1
+U 1 1 58E38DE5
+P 7950 4450
+F 0 "Expansion1" H 7950 5100 50  0000 C CNN
+F 1 "CONN_01X12" V 8050 4450 50  0000 C CNN
+F 2 "myComponents:microMatch-12_90_THT" V 8150 4450 50  0000 C CNN
+F 3 "" H 7950 4450 50  0000 C CNN
+F 4 "https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/1-2178711-2/A120906TR-ND/5119277" H 7950 4450 60  0001 C CNN "digikey"
+	1    7950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR9
+U 1 1 58E39CFA
+P 7750 5000
+F 0 "#PWR9" H 7750 4750 50  0001 C CNN
+F 1 "GND" H 7750 4850 50  0000 C CNN
+F 2 "" H 7750 5000 50  0000 C CNN
+F 3 "" H 7750 5000 50  0000 C CNN
+	1    7750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR8
+U 1 1 58E39D32
+P 7550 5000
+F 0 "#PWR8" H 7550 4850 50  0001 C CNN
+F 1 "+5V" H 7550 5140 50  0000 C CNN
+F 2 "" H 7550 5000 50  0000 C CNN
+F 3 "" H 7550 5000 50  0000 C CNN
+	1    7550 5000
+	1    0    0    -1  
+$EndComp
+Text Label 7450 4700 0    60   ~ 0
+SDA_2
+Text Label 7450 4800 0    60   ~ 0
+SCL_2
+Text Label 7100 4600 0    60   ~ 0
+ADC_H+int0
+Text Label 7100 4500 0    60   ~ 0
+ADC_V
+$Comp
+L CONN_01X04 I2C1
+U 1 1 58E54ECF
+P 6500 1450
+F 0 "I2C1" H 6500 1700 50  0000 C CNN
+F 1 "CONN_01X04" V 6600 1450 50  0000 C CNN
+F 2 "myComponents:solderPads_4_Grove_I2C" V 6650 1450 50  0000 C CNN
+F 3 "" H 6500 1450 50  0000 C CNN
+	1    6500 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3100 5600 3100
+Wire Wire Line
+	5850 2900 5600 2900
+Wire Wire Line
+	5600 3800 6800 3800
+Wire Wire Line
+	6150 3800 6150 4900
+Wire Wire Line
+	6150 4900 6700 4900
+Wire Wire Line
+	6700 4900 6700 5250
+Wire Wire Line
+	6700 5250 6450 5250
+Wire Wire Line
+	6100 3900 6100 4900
+Wire Wire Line
+	6100 4900 5800 4900
+Wire Wire Line
+	5800 4900 5800 5150
+Wire Wire Line
+	5800 5150 5950 5150
+Wire Wire Line
+	5600 4000 6750 4000
+Wire Wire Line
+	6050 4000 6050 4850
+Wire Wire Line
+	6050 4850 5750 4850
+Wire Wire Line
+	5750 4850 5750 5250
+Wire Wire Line
+	5750 5250 5950 5250
+Wire Wire Line
+	5600 4500 5700 4500
+Wire Wire Line
+	5700 4500 5700 5350
+Wire Wire Line
+	5350 5350 5950 5350
+Wire Wire Line
+	5600 3200 7750 3200
+Connection ~ 6050 4000
+Wire Wire Line
+	7550 5000 7650 5000
+Wire Wire Line
+	7650 5000 7650 4900
+Wire Wire Line
+	7650 4900 7750 4900
+Wire Wire Line
+	6900 4500 7750 4500
+Wire Wire Line
+	6850 4600 7750 4600
+Connection ~ 6150 3800
+Wire Wire Line
+	6800 3800 6800 4700
+Wire Wire Line
+	6800 4700 7750 4700
+Wire Wire Line
+	6750 4000 6750 4800
+Wire Wire Line
+	6750 4800 7750 4800
+Wire Wire Line
+	5600 3000 6050 3000
+Wire Wire Line
+	6050 3000 6050 3150
+Wire Wire Line
+	6050 3150 7750 3150
+Wire Wire Line
+	7750 3150 7750 3100
+Wire Wire Line
+	5600 3300 5900 3300
+Wire Wire Line
+	5900 3300 5900 3250
+Wire Wire Line
+	5900 3250 7750 3250
+Wire Wire Line
+	7750 3250 7750 3300
+Wire Wire Line
+	5600 3400 5950 3400
+Wire Wire Line
+	5950 3400 5950 3300
+Wire Wire Line
+	5950 3300 7700 3300
+Wire Wire Line
+	7700 3300 7700 3400
+Wire Wire Line
+	7700 3400 7750 3400
+Wire Wire Line
+	5600 3500 6000 3500
+Wire Wire Line
+	6000 3500 6000 3350
+Wire Wire Line
+	6000 3350 7650 3350
+Wire Wire Line
+	7650 3350 7650 3500
+Wire Wire Line
+	7650 3500 7750 3500
+Wire Wire Line
+	5600 3600 6050 3600
+Wire Wire Line
+	6050 3600 6050 3400
+Wire Wire Line
+	6050 3400 7600 3400
+Wire Wire Line
+	7600 3400 7600 3600
+Wire Wire Line
+	7600 3600 7750 3600
+Wire Wire Line
+	5600 3900 6500 3900
+Wire Wire Line
+	5600 4400 6850 4400
+Wire Wire Line
+	6850 4400 6850 4600
+Wire Wire Line
+	6900 4500 6900 4300
+Wire Wire Line
+	6900 4300 5600 4300
+Wire Wire Line
+	7750 3900 7450 3900
+Wire Wire Line
+	7450 3900 7450 3150
+Connection ~ 7450 3150
+Wire Wire Line
+	7400 3200 7400 4000
+Wire Wire Line
+	7400 4000 7750 4000
+Connection ~ 7400 3200
+Wire Wire Line
+	7350 3250 7350 4100
+Wire Wire Line
+	7350 4100 7750 4100
+Connection ~ 7350 3250
+Wire Wire Line
+	7300 3300 7300 4200
+Wire Wire Line
+	7300 4200 7750 4200
+Connection ~ 7300 3300
+Wire Wire Line
+	7250 3350 7250 4300
+Wire Wire Line
+	7250 4300 7750 4300
+Connection ~ 7250 3350
+Wire Wire Line
+	7200 3400 7200 4400
+Wire Wire Line
+	7200 4400 7750 4400
+Connection ~ 7200 3400
+Wire Wire Line
+	5600 4200 6600 4200
+Wire Wire Line
+	6600 4200 6600 2600
+Wire Wire Line
+	6600 2600 7700 2600
+Wire Wire Line
+	7700 2500 6550 2500
+Wire Wire Line
+	6550 2500 6550 4100
+Wire Wire Line
+	6550 4100 5600 4100
+Wire Wire Line
+	6500 3900 6500 2400
+Connection ~ 6100 3900
+Wire Wire Line
+	6500 2400 7700 2400
+$Comp
+L +5V #PWR4
+U 1 1 58E561FB
+P 6200 1200
+F 0 "#PWR4" H 6200 1050 50  0001 C CNN
+F 1 "+5V" H 6200 1340 50  0000 C CNN
+F 2 "" H 6200 1200 50  0000 C CNN
+F 3 "" H 6200 1200 50  0000 C CNN
+	1    6200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 58E5624E
+P 6200 1700
+F 0 "#PWR5" H 6200 1450 50  0001 C CNN
+F 1 "GND" H 6200 1550 50  0000 C CNN
+F 2 "" H 6200 1700 50  0000 C CNN
+F 3 "" H 6200 1700 50  0000 C CNN
+	1    6200 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1700 6200 1600
+Wire Wire Line
+	6200 1600 6300 1600
+Wire Wire Line
+	6300 1500 6200 1500
+Wire Wire Line
+	6200 1500 6200 1200
+Wire Wire Line
+	5850 1400 5850 2900
+Wire Wire Line
+	5900 1300 5900 3100
+Wire Wire Line
+	3400 2800 3400 3300
+Connection ~ 3400 2900
+Wire Wire Line
+	3400 4100 3400 4700
+Connection ~ 3400 4500
+Wire Wire Line
+	6550 5150 6450 5150
+$Comp
+L R R1
+U 1 1 58E6A84A
+P 5350 5200
+F 0 "R1" V 5430 5200 50  0000 C CNN
+F 1 "2K2" V 5350 5200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5500 5200 50  0000 C CNN
+F 3 "" H 5350 5200 50  0000 C CNN
+	1    5350 5200
+	1    0    0    1   
+$EndComp
+Connection ~ 5700 5350
+$Comp
+L +5V #PWR3
+U 1 1 58E6B644
+P 5350 4950
+F 0 "#PWR3" H 5350 4800 50  0001 C CNN
+F 1 "+5V" H 5350 5090 50  0000 C CNN
+F 2 "" H 5350 4950 50  0000 C CNN
+F 3 "" H 5350 4950 50  0000 C CNN
+	1    5350 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4950 5350 5050
+Wire Wire Line
+	5900 1300 6300 1300
+Wire Wire Line
+	5850 1400 6300 1400
+Text Notes 6700 1650 0    60   ~ 0
+SCL\nSDA\nVcc\nGnd
+Text Notes 6950 1550 0    60   ~ 0
+Seedstudio Grove\npin-"order"
+$Comp
+L C C1
+U 1 1 58E7C0BD
+P 3200 3650
+F 0 "C1" H 3225 3750 50  0000 L CNN
+F 1 "10µF" H 3225 3550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" V 3050 3650 50  0000 C CNN
+F 3 "" H 3200 3650 50  0000 C CNN
+	1    3200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3500 3200 2900
+Wire Wire Line
+	3200 2900 3400 2900
+Wire Wire Line
+	3200 3800 3200 4500
+Wire Wire Line
+	3200 4500 3400 4500
+$EndSCHEMATC

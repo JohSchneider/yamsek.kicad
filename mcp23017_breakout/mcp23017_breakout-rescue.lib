@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# address_sel-RESCUE-mcp23017_breakout
+#
+DEF address_sel-RESCUE-mcp23017_breakout U 0 40 Y Y 1 F N
+F0 "U" 0 -175 60 H V C CNN
+F1 "address_sel-RESCUE-mcp23017_breakout" 0 175 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+A -20 3 53 -319 -954 0 1 0 N 25 -25 -25 -50
+C -50 -75 25 0 1 0 N
+C -50 75 25 0 1 0 N
+C 50 0 25 0 1 0 N
+X Vcc 1 -250 75 200 R 50 50 1 1 I
+X Addr 2 250 0 200 L 50 50 1 1 O
+X Gnd 3 -250 -75 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

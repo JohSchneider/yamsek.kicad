@@ -236,8 +236,8 @@ ENDDEF
 #
 # address_sel
 #
-DEF address_sel U 0 40 Y Y 1 F N
-F0 "U" 0 -175 60 H V C CNN
+DEF address_sel A 0 40 Y Y 1 F N
+F0 "A" 0 -175 60 H V C CNN
 F1 "address_sel" 0 175 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN

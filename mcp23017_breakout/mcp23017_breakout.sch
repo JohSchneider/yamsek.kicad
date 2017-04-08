@@ -345,10 +345,10 @@ Wire Wire Line
 Wire Wire Line
 	3550 4350 4000 4350
 $Comp
-L address_sel U1
+L address_sel A0
 U 1 1 58E81F3D
 P 3250 4200
-F 0 "U1" H 3250 4025 60  0000 C CNN
+F 0 "A0" H 3250 4025 60  0000 C CNN
 F 1 "address_sel" H 3250 4375 60  0000 C CNN
 F 2 "myComponents:addr_jumper" H 3250 4200 60  0001 C CNN
 F 3 "" H 3250 4200 60  0001 C CNN
@@ -356,10 +356,10 @@ F 3 "" H 3250 4200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L address_sel U2
+L address_sel A1
 U 1 1 58E82010
 P 3250 4600
-F 0 "U2" H 3250 4425 60  0000 C CNN
+F 0 "A1" H 3250 4425 60  0000 C CNN
 F 1 "address_sel" H 3250 4775 60  0000 C CNN
 F 2 "myComponents:addr_jumper" H 3250 4600 60  0001 C CNN
 F 3 "" H 3250 4600 60  0001 C CNN
@@ -367,10 +367,10 @@ F 3 "" H 3250 4600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L address_sel U3
+L address_sel A2
 U 1 1 58E82047
 P 3250 5000
-F 0 "U3" H 3250 4825 60  0000 C CNN
+F 0 "A2" H 3250 4825 60  0000 C CNN
 F 1 "address_sel" H 3250 5175 60  0000 C CNN
 F 2 "myComponents:addr_jumper" H 3250 5000 60  0001 C CNN
 F 3 "" H 3250 5000 60  0001 C CNN

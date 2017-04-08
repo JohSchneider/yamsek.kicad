@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /mnt/gruscht/projects/keyboard/kicad_boards/mcp23017_breakout/mcp23017_breakout.sch)
-    (date "Fri 07 Apr 2017 07:22:44 PM CEST")
+    (date "Sat 08 Apr 2017 08:41:35 AM CEST")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -42,7 +42,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 58E54ECF))
     (comp (ref R1)
-      (value 2K2)
+      (value 10K)
       (footprint Resistors_SMD:R_0805)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -218,14 +218,14 @@
         (pin (num 2) (name Addr) (type output))
         (pin (num 3) (name Gnd) (type input)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical myComponents)
-      (uri /mnt/gruscht/projects/keyboard/kicad_boards/mcp23017_breakout/../myComponents.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical microchip)
-      (uri /usr/share/kicad/library/microchip.lib)))
+      (uri /usr/share/kicad/library/microchip.lib))
+    (library (logical myComponents)
+      (uri /mnt/gruscht/projects/keyboard/kicad_boards/mcp23017_breakout/../myComponents.lib)))
   (nets
     (net (code 1) (name "Net-(R1-Pad1)")
       (node (ref R1) (pin 1))

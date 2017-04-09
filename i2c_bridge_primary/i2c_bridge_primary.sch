@@ -132,8 +132,8 @@ Wire Wire Line
 $Sheet
 S 3150 1050 1800 1250
 U 58E667B4
-F0 "I2C_bridge" 60
-F1 "../I2C_bridge.sch" 60
+F0 "i2c_bridge_common" 60
+F1 "../i2c_bridge_common.sch" 60
 F2 "Gnd_inside" O R 4950 2050 60 
 F3 "V_inside" O R 4950 1150 60 
 F4 "SDA_inside" O R 4950 1450 60 

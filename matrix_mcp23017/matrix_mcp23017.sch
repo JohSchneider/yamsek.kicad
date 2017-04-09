@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:mcp23017_breakout-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:myComponents
-LIBS:mcp23017_breakout-cache
+LIBS:matrix_mcp23017-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -411,4 +410,7 @@ Wire Wire Line
 	3000 4000 3000 4900
 Connection ~ 3000 4100
 Connection ~ 3000 4500
+NoConn ~ 5000 3650
+NoConn ~ 5000 4450
+NoConn ~ 5000 4550
 $EndSCHEMATC

@@ -3,9 +3,9 @@
   (general
     (links 38)
     (no_connects 0)
-    (area 37.867704 38.3 72.135715 89.000001)
+    (area 41.924999 44.924999 58.075001 74.075001)
     (thickness 1.6)
-    (drawings 30)
+    (drawings 31)
     (tracks 285)
     (zones 0)
     (modules 11)
@@ -693,6 +693,7 @@
       (xy 4.845618 -1.561278) (xy 4.849469 -1.565096)) (layer F.Cu) (width 0))
   )
 
+  (gr_circle (center 47 67) (end 47.4 67) (layer B.SilkS) (width 0.2))
   (gr_text "matrix mcp23017\n2017-04-09" (at 56.4 57 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )

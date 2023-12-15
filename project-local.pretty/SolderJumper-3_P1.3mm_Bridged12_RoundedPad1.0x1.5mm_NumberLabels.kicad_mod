@@ -1,4 +1,4 @@
-(footprint "SolderJumper-3_P1.3mm_Bridged23_RoundedPad1.0x1.5mm_NumberLabels" (version 20221018) (generator pcbnew)
+(footprint "SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers")
   (tags "net tie solder jumper bridged")
@@ -8,7 +8,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9994a19d-9861-40ab-a9a1-6d4b62ce4be8)
   )
-  (fp_text value "SolderJumper-3_P1.3mm_Bridged23_RoundedPad1.0x1.5mm_NumberLabels" (at 0 1.9) (layer "F.Fab")
+  (fp_text value "SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" (at 0 1.9) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 989b0383-d1a2-412f-8009-3b90e4d2b76c)
   )
@@ -22,10 +22,10 @@
   )
   (fp_poly
     (pts
-      (xy 0.389 -0.3)
-      (xy 0.889 -0.3)
-      (xy 0.889 0.3)
-      (xy 0.389 0.3)
+      (xy -0.9 -0.3)
+      (xy -0.4 -0.3)
+      (xy -0.4 0.3)
+      (xy -0.9 0.3)
     )
 
     (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp b9a4074d-bff7-4d03-bad0-2d3535c86672))
@@ -47,15 +47,15 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp c460c934-a8c8-4aa7-9658-728a2e573236))
   (fp_poly
     (pts
-      (xy 0.381 -0.381)
-      (xy 0.635 -0.1016)
-      (xy 0.889 -0.381)
-      (xy 0.889 0.381)
-      (xy 0.635 0.1016)
-      (xy 0.381 0.381)
+      (xy -0.879 -0.3794)
+      (xy -0.625 -0.1)
+      (xy -0.371 -0.3794)
+      (xy -0.371 0.3826)
+      (xy -0.625 0.1032)
+      (xy -0.879 0.3826)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 11cda116-999f-4e97-85e2-3d41cdcc18da))
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp e8902248-afe6-44d8-ac9c-4f070835f6ea))
   (fp_line (start -2.3 -1.25) (end -2.3 1.25)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a3073ab7-3407-4be5-94c7-6d7467e106e8))
   (fp_line (start -2.3 -1.25) (end 2.3 -1.25)

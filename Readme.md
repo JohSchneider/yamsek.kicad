@@ -8,4 +8,6 @@ The design "fully embraces" I2C as interconnect:
 - along the edge are three places where a ribbon cable can be soldered to to connect to the next module
 - "modules" are the main mcu running QMK, two of these pcbs and additional sensors (e.g. an I2C touchpad, ... )
 
-![kicad pcb render](https://github.com/JohSchneider/yamsek.kicad/releases/download/2023_1.0/yamsek_2023_render.png)
+![kicad pcb render](https://github.com/JohSchneider/yamsek.kicad/releases/download/2023_1.0/yamsek_2023_PCB_render.png)
+
+![blender case render](https://github.com/JohSchneider/yamsek.kicad/releases/download/2023_1.0/yamsek_2023_case_render.png)
